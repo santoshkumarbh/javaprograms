@@ -9,5 +9,6 @@ class CountDigit{
     public static int count(int num){
        int count=(int)(Math.log10(num)+1);
        return count;
+       
     }
 }
